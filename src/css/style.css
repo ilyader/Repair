@@ -6,27 +6,32 @@ body {
 }
 
 /* line 3, C:/Users/user/Repair/src/sass/_interface.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 5, C:/Users/user/Repair/src/sass/_interface.sass */
 .container {
   width: 1170px;
   margin: auto;
 }
 
 @media (max-width: 1200px) {
-  /* line 7, C:/Users/user/Repair/src/sass/_interface.sass */
+  /* line 9, C:/Users/user/Repair/src/sass/_interface.sass */
   .container {
-    width: 960px;
+    width: 760px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 10, C:/Users/user/Repair/src/sass/_interface.sass */
+  /* line 12, C:/Users/user/Repair/src/sass/_interface.sass */
   .container {
     max-width: 580px;
     width: 95%;
   }
 }
 
-/* line 13, C:/Users/user/Repair/src/sass/_interface.sass */
+/* line 15, C:/Users/user/Repair/src/sass/_interface.sass */
 .button {
   border-radius: 10px;
   background-color: #ffd200;
@@ -38,14 +43,6 @@ body {
 /* line 1, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
 .navbar {
   padding: 8px 0;
-  flex-direction: column;
-  margin-left: 30px;
-  display: inline-block;
-  color: #333;
-  font-size: 20px;
-  font-weight: 400;
-  text-decoration: none;
-  margin-top: 10px;
 }
 
 /* line 3, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
@@ -62,17 +59,42 @@ body {
   text-align: right;
 }
 
+/* line 11, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+.navbar__address {
+  flex-direction: column;
+}
+
+/* line 13, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+.navbar__button {
+  margin-left: 30px;
+}
+
+/* line 15, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+.navbar__phone {
+  display: inline-block;
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
-  /* line 24, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+  /* line 23, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+  .navbar {
+    max-width: 580px;
+    width: 95%;
+  }
+  /* line 26, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
   .navbar__contacts {
     display: none;
   }
-  /* line 26, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+  /* line 28, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
   .navbar__button {
     font-size: 12px;
     padding: 15px 26px;
   }
-  /* line 29, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
+  /* line 31, C:/Users/user/Repair/src/sass/blocks/_navbar.sass */
   .navbar__logo {
     width: 90px;
   }
