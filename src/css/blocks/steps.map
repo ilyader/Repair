@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "steps.css",
+	"sources": [
+		"../../sass/blocks/steps.sass"
+	],
+	"sourcesContent": [
+		".step {\n\tflex-basis: 20%;\n\ttext-align: center;\n\t&__image {\n\t\twidth: 100px;\n\t\theight: 100px;\n\t\tborder: 3px solid #ffd200; }\n &s {\n \t&__title {\n\t\t\tmargin: auto;\n\t\t\tmax-width: 500px;\n\t\t\tmargin-bottom: 59px; }\n \t&__subtitle {\n\t\t\ttext-align: center;\n\t\t\tmargin-bottom: 58px; }\n \t&-block {\n \t\tdisplay: flex; } } }\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,KAAK,CAAC;EACL,UAAU,EAAE,GAAG;EACf,UAAU,EAAE,MAAM;CAcI;;;AAbrB,AAAD,YAAQ,CAAC;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,iBAAiB;CAAG;;;AAE3B,AAAD,aAAQ,CAAC;EACR,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,KAAK;EAChB,aAAa,EAAE,IAAI;CAAG;;;AACtB,AAAD,gBAAW,CAAC;EACX,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CAAG;;;AACtB,AAAD,YAAO,CAAC;EACP,OAAO,EAAE,IAAI;CAAG"
+}

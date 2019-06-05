@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/steps.sass */
+.step {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/steps.sass */
+.step__image {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffd200;
+}
+
+/* line 9, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/steps.sass */
+.steps__title {
+  margin: auto;
+  max-width: 500px;
+  margin-bottom: 59px;
+}
+
+/* line 13, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/steps.sass */
+.steps__subtitle {
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+/* line 16, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/steps.sass */
+.steps-block {
+  display: flex;
+}
+
+/*# sourceMappingURL=steps.css.map */
