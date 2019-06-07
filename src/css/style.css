@@ -15,49 +15,49 @@
   font-style: normal;
 }
 
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 3, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 3, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 body {
   font-family: 'Museo Sans Cyrl 300', sans-serif;
 }
 
-/* line 5, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 5, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 img {
   max-width: 100%;
 }
 
-/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 button {
   border: 0;
   outline: 0;
 }
 
-/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .container {
   width: 1170px;
   margin: auto;
 }
 
 @media (max-width: 1200px) {
-  /* line 14, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+  /* line 14, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
   .container {
     width: 760px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+  /* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
   .container {
     max-width: 580px;
     width: 90%;
   }
 }
 
-/* line 20, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 20, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .button {
   border-radius: 5px;
   background-color: #ffd200;
@@ -65,18 +65,18 @@ button {
   padding: 18px 30px;
 }
 
-/* line 25, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 25, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .button:hover {
   background-color: #ffdb33;
   cursor: pointer;
 }
 
-/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .section {
   padding: 90px 0;
 }
 
-/* line 30, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 30, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .section-title {
   font-size: 24px;
   font-family: 'Museo Sans Cyrl 700', sans-serif;
@@ -84,13 +84,13 @@ button {
   text-align: center;
 }
 
-/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .section-subtitle {
   display: block;
   font-size: 16px;
 }
 
-/* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .input {
   border: 1px solid #dddddd;
   padding: 20px 26px;
@@ -99,25 +99,25 @@ button {
   outline: 0;
 }
 
-/* line 46, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 46, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .arrow__left:hover, .arrow__right:hover {
   cursor: pointer;
 }
 
-/* line 49, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+/* line 49, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
 .modal-active {
   display: block;
 }
 
 @media (max-width: 320px) {
-  /* line 53, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+  /* line 53, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
   .offer__title {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 12px;
   }
-  /* line 58, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/_interface.sass */
+  /* line 58, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/_interface.sass */
   .offer__subtitle {
     font-size: 14px;
     font-weight: 400;
@@ -125,19 +125,19 @@ button {
 }
 
 /*Стили шапки*/
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar {
   padding: 8px 0;
 }
 
-/* line 3, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 3, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar__info {
   display: flex;
   align-items: center;
@@ -145,7 +145,7 @@ button {
   margin-bottom: 6px;
 }
 
-/* line 12, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 12, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar__address {
   font-weight: 400;
   font-size: 13px;
@@ -153,7 +153,7 @@ button {
   flex-direction: column;
 }
 
-/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar__button {
   color: #333333;
   font-size: 13px;
@@ -164,7 +164,7 @@ button {
   border: none;
 }
 
-/* line 25, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 25, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar__phone {
   display: inline-block;
   color: #333;
@@ -176,45 +176,45 @@ button {
   outline: 0;
 }
 
-/* line 34, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+/* line 34, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
 .navbar__contacts {
   color: #333;
   height: 40px;
 }
 
 @media (max-width: 768px) {
-  /* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar {
     max-width: 580px;
     width: 95%;
   }
-  /* line 41, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 41, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar__contacts {
     display: none;
   }
-  /* line 43, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 43, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar__button {
     font-size: 12px;
     padding: 15px 26px;
   }
-  /* line 46, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 46, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar__logo {
     width: 90px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 49, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 49, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar {
     margin-left: 11px;
     margin-top: 10px;
   }
-  /* line 52, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 52, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar__logo {
     width: 91px;
     height: 44px;
   }
-  /* line 55, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_navbar.sass */
+  /* line 55, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_navbar.sass */
   .navbar__button {
     font-size: 10px;
     margin-right: 12px;
@@ -222,25 +222,25 @@ button {
 }
 
 /*Главный экран*/
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero {
   padding-top: 50px;
   background-color: #f5f5f5;
 }
 
-/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-block {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-text {
   flex-basis: 45%;
   padding-right: 100px;
 }
 
-/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-text__title {
   font-size: 41px;
   line-height: 55px;
@@ -248,7 +248,7 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-text__subtitle {
   display: inline-block;
   font-size: 20px;
@@ -256,26 +256,26 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 20, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 20, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list {
   margin: 0;
   padding: 0;
   max-width: 625px;
 }
 
-/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list__item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
 
-/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list__item:last-child {
   margin-bottom: 0;
 }
 
-/* line 30, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 30, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list__image {
   width: 40px;
   height: 40px;
@@ -287,12 +287,12 @@ button {
   margin-right: 30px;
 }
 
-/* line 39, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 39, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list-img {
   padding-left: -30px;
 }
 
-/* line 41, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+/* line 41, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
 .hero-list__text {
   max-width: 300px;
   font-size: 14px;
@@ -300,78 +300,78 @@ button {
 }
 
 @media (max-width: 1200px) {
-  /* line 47, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 47, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list {
     margin-bottom: 44px;
   }
-  /* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-text__title {
     font-size: 27px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 57, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 57, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-block {
     flex-direction: column;
   }
-  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-text__title {
     font-size: 24px;
     line-height: 1.4;
     margin-bottom: 15px;
   }
-  /* line 64, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 64, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero__subtitle {
     font-size: 16px;
     margin-bottom: 28px;
   }
-  /* line 68, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 68, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list__item {
     margin-bottom: 20px;
   }
-  /* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list__text {
     font-size: 12px;
   }
-  /* line 72, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 72, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list__image {
     margin-right: 15px;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 75, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 75, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero {
     padding-top: 29px;
     padding-left: 12px;
   }
-  /* line 78, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 78, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-block {
     padding-bottom: 40px;
   }
-  /* line 80, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 80, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list {
     margin-bottom: 0;
     font-size: 12px;
     font-weight: 400;
   }
-  /* line 82, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 82, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list__item:last-child {
     margin-bottom: 30px;
   }
-  /* line 87, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 87, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-list__image {
     width: 40px;
   }
-  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-text__subtitle {
     max-width: 200px;
     margin-bottom: 25px;
     font-size: 16px;
     font-weight: 400;
   }
-  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_hero.sass */
+  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_hero.sass */
   .hero-text__title {
     font-size: 24px;
     font-weight: 400;
@@ -379,7 +379,7 @@ button {
   }
 }
 
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer {
   background: url("../img/offer-bg.png") no-repeat;
   background-size: contain;
@@ -388,7 +388,7 @@ button {
   height: 595px;
 }
 
-/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 7, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer:before {
   content: '';
   min-width: 50%;
@@ -399,14 +399,14 @@ button {
   background-color: #fff;
 }
 
-/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer-block {
   width: 50%;
   padding-right: 90px;
   position: relative;
 }
 
-/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__title {
   max-width: 360px;
   margin-bottom: 24px;
@@ -416,25 +416,25 @@ button {
   text-align: left;
 }
 
-/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__subtitle {
   max-width: 250px;
   margin-bottom: 30px;
 }
 
-/* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__input {
   width: 240px;
   margin-bottom: 30px;
   outline: 0;
 }
 
-/* line 33, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 33, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__input:first-child {
   margin-right: 10px;
 }
 
-/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__button {
   width: 100%;
   min-height: 70px;
@@ -442,13 +442,13 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 40, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 40, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer-text {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 43, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 43, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__text {
   font-size: 15px;
   font-weight: 400;
@@ -456,17 +456,17 @@ button {
   padding-top: 32px;
 }
 
-/* line 48, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 48, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__text:first-child {
   max-width: 224px;
 }
 
-/* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__text:last-child {
   max-width: 207px;
 }
 
-/* line 52, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+/* line 52, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
 .offer__text:last-child a {
   text-decoration: none;
   color: #333333;
@@ -477,31 +477,31 @@ button {
 }
 
 @media (max-width: 1200px) {
-  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer {
     background-size: cover;
   }
-  /* line 62, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 62, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__input {
     width: 100%;
     margin-bottom: 10px;
   }
-  /* line 65, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 65, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__button {
     font-size: 13px;
   }
-  /* line 67, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 67, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__title {
     padding-top: 50px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer {
     background: #fff;
   }
-  /* line 72, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 72, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer-block {
     width: 100%;
     padding-right: 0;
@@ -509,48 +509,48 @@ button {
 }
 
 @media (max-width: 320px) {
-  /* line 77, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 77, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer-block {
     max-width: 275px;
   }
-  /* line 79, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 79, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__title {
     line-height: 1.3;
     padding-top: 45px;
     margin-bottom: 20px;
   }
-  /* line 84, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 84, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__input:last-child {
     margin-bottom: 0;
   }
-  /* line 86, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 86, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__button {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
   }
-  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer-text {
     flex-direction: column;
   }
-  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__text:first-child {
     padding-top: 25px;
   }
-  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_offer.sass */
+  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_offer.sass */
   .offer__text:last-child {
     padding-top: 10px;
   }
 }
 
 /*Дизайны*/
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
 .portfolio {
   background: #f5f5f5 url("../img/slider/portfolio-pattern.jpg") center left repeat-y;
   background-size: 50%;
 }
 
-/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
 .portfolio__title {
   margin: auto;
   margin-bottom: 100px;
@@ -561,7 +561,7 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 12, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+/* line 12, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
 .portfolio__arrow {
   display: flex;
   justify-content: space-between;
@@ -570,25 +570,25 @@ button {
   margin-top: 68px;
 }
 
-/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
 .portfolio .slider__image {
   margin: auto;
 }
 
 @media (max-width: 768px) {
-  /* line 23, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+  /* line 23, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
   .portfolio__title {
     font-size: 26px;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+  /* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
   .portfolio {
     padding-top: 30px;
     padding-bottom: 90px;
   }
-  /* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+  /* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
   .portfolio__title {
     font-size: 18px;
     max-width: 280px;
@@ -596,11 +596,11 @@ button {
     margin-bottom: 35px;
     margin-top: 0;
   }
-  /* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+  /* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
   .portfolio__arrow {
     margin-top: 50px;
   }
-  /* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_portfolio.sass */
+  /* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_portfolio.sass */
   .slider__image {
     max-width: 246px;
     max-height: 186px;
@@ -608,7 +608,7 @@ button {
 }
 
 /*Стили для блока с ценами*/
-/* line 2, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 2, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .price__title {
   margin: auto;
   margin-bottom: 38px;
@@ -618,7 +618,7 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 9, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 9, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .price__subtitle {
   margin-bottom: 47px;
   text-align: center;
@@ -627,35 +627,35 @@ button {
   font-family: 'Museo Sans Cyrl 300', sans-serif;
 }
 
-/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 15, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .price__card {
   margin-bottom: 30px;
 }
 
-/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card {
   text-align: center;
   border: 1px solid #e8e8e8;
   height: 410px;
 }
 
-/* line 21, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 21, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card:hover {
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
   transition: 0.2s;
 }
 
-/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card:hover .card__image:before {
   opacity: 1;
 }
 
-/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__text {
   padding: 20px 40px 40px 40px;
 }
 
-/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__title {
   margin-top: 0;
   margin-bottom: 18px;
@@ -665,13 +665,13 @@ button {
   font-family: 'Museo Sans Cyrl 300', sans-serif;
 }
 
-/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 35, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__image {
   position: relative;
   display: block;
 }
 
-/* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__image:before {
   content: '';
   position: absolute;
@@ -684,7 +684,7 @@ button {
   transition: 0.2s;
 }
 
-/* line 48, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 48, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__link {
   display: inline-block;
   font-family: 'Museo Sans Cyrl 700', sans-serif;
@@ -696,14 +696,14 @@ button {
   position: relative;
 }
 
-/* line 58, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 58, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__link:hover:after {
   height: 12px;
   z-index: -1;
   transition: 0.2s;
 }
 
-/* line 62, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 62, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .card__link:after {
   content: '';
   position: absolute;
@@ -714,7 +714,7 @@ button {
   background-color: #ffd200;
 }
 
-/* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+/* line 70, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
 .cards {
   display: flex;
   justify-content: space-between;
@@ -722,62 +722,62 @@ button {
 }
 
 @media (max-width: 768px) {
-  /* line 76, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 76, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .cards {
     justify-content: center;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 79, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 79, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .price {
     padding-top: 20px;
   }
-  /* line 81, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 81, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .price__title {
     margin-bottom: 26px;
     max-width: 242px;
     font-size: 18px;
   }
-  /* line 85, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 85, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .price__subtitle {
     font-size: 14px;
   }
-  /* line 87, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 87, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .price__card {
     margin: auto;
     margin-bottom: 30px;
   }
-  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .card {
     max-width: 270px;
     max-height: 300px;
   }
-  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .card__title {
     font-size: 14px;
     margin-bottom: 9px;
   }
-  /* line 96, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_price.sass */
+  /* line 96, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_price.sass */
   .card__text {
     padding: 30px 30px 50px 30px;
   }
 }
 
 /*Стили для блока 5 шагов до ремонта*/
-/* line 2, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 2, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .section:nth-child(5) {
   padding-top: 35px;
 }
 
-/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 4, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .step {
   flex-basis: 20%;
   text-align: center;
   position: relative;
 }
 
-/* line 8, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 8, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .step:after {
   content: '';
   width: 72px;
@@ -788,12 +788,12 @@ button {
   background: url("../img/steps/arrow.png") no-repeat center;
 }
 
-/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .step:last-child:after {
   display: none;
 }
 
-/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .step__image {
   width: 100px;
   height: 100px;
@@ -806,7 +806,7 @@ button {
   margin-bottom: 30px;
 }
 
-/* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 29, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .step__text {
   font-size: 14px;
   max-width: 160px;
@@ -816,7 +816,7 @@ button {
   line-height: 20px;
 }
 
-/* line 37, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 37, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .steps__title {
   margin: auto;
   max-width: 670px;
@@ -826,7 +826,7 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 44, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 44, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .steps__subtitle {
   text-align: center;
   margin-bottom: 58px;
@@ -835,39 +835,39 @@ button {
   font-family: 'Museo Sans Cyrl 300', sans-serif;
 }
 
-/* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+/* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
 .steps-block {
   display: flex;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1200px) {
-  /* line 54, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 54, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .step {
     margin-bottom: 30px;
     flex-basis: 50%;
   }
-  /* line 57, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 57, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .step:after {
     display: none;
   }
-  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-block {
     justify-content: center;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 63, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 63, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .step {
     margin-bottom: 30px;
     flex-basis: 50%;
   }
-  /* line 66, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 66, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .step:after {
     display: none;
   }
-  /* line 69, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 69, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-block {
     flex-direction: column;
     justify-content: flex-start;
@@ -875,54 +875,54 @@ button {
 }
 
 @media (max-width: 320px) {
-  /* line 73, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 73, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .section {
     padding: 0;
   }
-  /* line 76, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 76, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .step__text {
     font-size: 12px;
     max-width: 130px;
     line-height: 16px;
   }
-  /* line 80, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 80, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps {
     padding-top: 25px;
   }
-  /* line 82, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 82, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps__title {
     font-size: 18px;
     margin-bottom: 27px;
   }
-  /* line 85, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 85, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps__subtitle {
     font-size: 14px;
     margin-bottom: 34px;
   }
-  /* line 89, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 89, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-image__1 {
     margin-bottom: 18px;
   }
-  /* line 91, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 91, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-image__2 {
     margin-bottom: 31px;
   }
-  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-image__3 {
     margin-bottom: 24px;
   }
-  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-image__4 {
     margin-bottom: 26px;
   }
-  /* line 97, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_steps.sass */
+  /* line 97, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_steps.sass */
   .steps-image__5 {
     margin-bottom: 29px;
   }
 }
 
 /**/
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif {
   background-image: url("../img/brif/brif-color-bg.png"), url("../img/brif/brif-bg.jpg");
   background-position: left center, center right;
@@ -930,31 +930,31 @@ button {
   background-repeat: repeat-y, no-repeat;
 }
 
-/* line 6, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 6, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif-block {
   display: flex;
 }
 
-/* line 8, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 8, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif__interview {
   flex-basis: 50%;
 }
 
-/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 10, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif__form {
   flex-basis: 50%;
   padding-left: 213px;
   text-align: center;
 }
 
-/* line 14, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 14, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif__input {
   width: 100%;
   max-width: 370px;
   margin-bottom: 15px;
 }
 
-/* line 18, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 18, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .brif__button {
   height: 70px;
   width: 100%;
@@ -963,34 +963,36 @@ button {
   margin-bottom: 33px;
 }
 
-/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 24, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview {
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
-/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 26, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview__title {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
   font-size: 22px;
   line-height: 33px;
+  margin-top: 28px;
+  max-width: 520px;
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 31, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 33, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview__subtitle {
-  margin-bottom: 95px;
+  margin-bottom: 80px;
   display: block;
   font-size: 16px;
   line-height: 45px;
 }
 
-/* line 36, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 38, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview-list {
   list-style: none;
   padding: 0;
 }
 
-/* line 39, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 41, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview-list__item {
   display: flex;
   align-items: center;
@@ -998,7 +1000,17 @@ button {
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 44, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 45, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
+.interview-list__item:nth-child(2) {
+  margin-bottom: 33px;
+}
+
+/* line 47, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
+.interview-list__item:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+/* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview-list__counter {
   display: inline-block;
   text-align: center;
@@ -1011,113 +1023,119 @@ button {
   font-size: 14px;
 }
 
-/* line 54, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .interview-list__text {
   max-width: 400px;
   font-size: 18px;
 }
 
-/* line 58, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 63, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
+.section {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+/* line 68, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .form__title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 22px;
   line-height: 33px;
   font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
-/* line 63, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 73, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .form__subtitle {
-  margin-bottom: 95px;
+  margin-bottom: 60px;
   display: block;
   font-size: 16px;
   line-height: 45px;
 }
 
-/* line 68, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 78, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 .form__description {
   display: block;
   text-align: center;
 }
 
-/* line 72, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 82, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 input.invalid {
   border: 1px solid red;
   margin-bottom: 15px;
 }
 
-/* line 73, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 83, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 input.invalid:first-child {
   margin-right: 0;
 }
 
-/* line 78, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+/* line 88, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
 div.invalid {
   display: inline-block;
   margin-left: 20px;
 }
 
 @media (max-width: 1200px) {
-  /* line 83, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif__form {
     padding-left: 30px;
   }
-  /* line 85, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 95, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .interview {
     padding-right: 30px;
   }
-  /* line 87, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 97, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   __title {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  /* line 90, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 100, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   __subtitle {
     margin-bottom: 30px;
   }
-  /* line 93, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 103, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   -list__text {
     font-size: 14px;
     max-width: 300px;
   }
-  /* line 96, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 106, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   -list__counter {
     margin-right: 20px;
   }
-  /* line 99, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 109, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .form__title {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  /* line 102, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 112, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .form__subtitle {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 105, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 115, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif {
     background-image: url("../img/brif/brif-color-bg.png"), url("../img/brif/brif-bg.jpg");
     background-position: top center, center bottom;
     background-size: 100% 50%, cover;
     background-repeat: repeat-x, no-repeat;
   }
-  /* line 110, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 120, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif-block {
     flex-direction: column;
   }
-  /* line 112, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 122, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif__form {
     margin-top: 80px;
   }
-  /* line 115, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 125, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .section:nth-child(6) {
     padding-top: 0;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 119, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 129, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif__button {
     margin-top: 0;
     margin-bottom: 24px;
@@ -1125,45 +1143,45 @@ div.invalid {
     line-height: 18px;
     font-family: 'Museo Sans Cyrl 700', sans-serif;
   }
-  /* line 125, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 135, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .brif__form {
     padding-left: 0;
   }
-  /* line 128, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 138, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .interview__title {
     font-size: 18px;
     line-height: 1.15;
     margin-bottom: 16px;
   }
-  /* line 132, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 142, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .interview__subtitle {
     font-size: 14px;
     line-height: 1.15;
     margin-bottom: 40px;
   }
-  /* line 137, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 147, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .interview-list__text {
     font-size: 14px;
     max-width: 220px;
   }
-  /* line 140, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 150, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .interview-list__counter {
     margin-right: 10px;
   }
-  /* line 143, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 153, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .form__title {
     max-width: 400px;
     font-size: 18px;
     line-height: 25.35px;
     color: #333;
   }
-  /* line 148, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 158, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .form__subtitle {
     font-size: 14px;
     line-height: 26.88px;
     color: #333;
   }
-  /* line 152, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_brif.sass */
+  /* line 162, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_brif.sass */
   .form__description {
     font-size: 14px;
     line-height: 24px;
@@ -1172,8 +1190,114 @@ div.invalid {
   }
 }
 
+/*Стили для подвала с картой*/
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.footer {
+  position: relative;
+}
+
+/* line 3, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+}
+
+/* line 8, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts {
+  flex-basis: 50%;
+  padding-top: 70px;
+  padding-left: 215px;
+}
+
+/* line 12, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts__title {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 90px;
+}
+
+/* line 17, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 20, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-list {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 23, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-list__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 33px;
+  line-height: 26px;
+}
+
+/* line 28, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-list__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 31, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-list__icon {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 23px;
+}
+
+/* line 36, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+.contacts-list__bold-text {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+@media (max-width: 320px) {
+  /* line 39, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* line 42, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .map {
+    position: relative;
+    width: 100%;
+  }
+  /* line 45, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .contacts {
+    flex-basis: 100%;
+    padding-left: 14px;
+  }
+  /* line 48, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .contacts-block {
+    justify-content: flex-start;
+  }
+  /* line 50, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .contacts__title {
+    font-size: 18px;
+    max-width: 288px;
+    line-height: 1.2;
+    margin-bottom: 27px;
+    margin-top: 28px;
+  }
+  /* line 57, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .contacts-list__text {
+    line-height: 26px;
+  }
+  /* line 60, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_footer.sass */
+  .contacts-list__item:last-child {
+    margin-bottom: 40px;
+  }
+}
+
 /*Модальное окно*/
-/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_modal.sass */
+/* line 1, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_modal.sass */
 .modal {
   position: fixed;
   left: 0;
@@ -1184,12 +1308,12 @@ div.invalid {
   display: none;
 }
 
-/* line 9, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_modal.sass */
+/* line 9, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_modal.sass */
 .modal_active {
   display: flex;
 }
 
-/* line 11, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_modal.sass */
+/* line 11, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_modal.sass */
 .modal-dialog {
   position: relative;
   margin: auto;
@@ -1200,7 +1324,7 @@ div.invalid {
   padding: 40px;
 }
 
-/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_21/src/sass/blocks/_modal.sass */
+/* line 19, C:/Users/user/Desktop/Курс веб старт/lesson_22/src/sass/blocks/_modal.sass */
 .modal-dialog__close {
   position: absolute;
   top: 0;

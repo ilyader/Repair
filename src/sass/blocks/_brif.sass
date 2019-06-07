@@ -22,14 +22,16 @@
 		margin-top: 15px
 		margin-bottom: 33px
 .interview
-	padding-right: 70px
+	margin-right: 70px
 	&__title
-		margin-bottom: 50px
+		margin-bottom: 32px
 	 font-size: 22px
   line-height: 33px
+  margin-top: 28px
+  max-width: 520px
   +bold
  &__subtitle
- 	margin-bottom: 95px
+ 	margin-bottom: 80px
  	display: block
  	font-size: 16px
   line-height: 45px
@@ -40,6 +42,10 @@
  		display: flex
  		align-items: center
  		margin-bottom: 25px
+ 		&:nth-child(2)
+ 			margin-bottom: 33px
+ 		&:nth-child(3)
+ 			margin-bottom: 40px
  		+bold
   &__counter
   	display: inline-block
@@ -54,14 +60,18 @@
   &__text
   	max-width: 400px
   	font-size: 18px
+.section
+	&:nth-child(6)
+	padding-top: 60px 
+	padding-bottom: 0
 .form
 	&__title
-		margin-bottom: 50px
+		margin-bottom: 40px
 	 font-size: 22px
   line-height: 33px
   +bold
  &__subtitle
- 	margin-bottom: 95px
+ 	margin-bottom: 60px
  	display: block
  	font-size: 16px
   line-height: 45px
