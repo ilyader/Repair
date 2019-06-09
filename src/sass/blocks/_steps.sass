@@ -1,6 +1,7 @@
 .section
 	&:nth-child(5)
-		padding-top: 35px
+		padding-top: 120px
+		padding-bottom: 90px
 .step
 	flex-basis: 20%
 	text-align: center
@@ -71,7 +72,9 @@
 				justify-content: flex-start
 @media (max-width: 320px)
  .section
-	 padding: 0
+	 &:nth-child(5)
+		 padding-top: 12px
+		 padding-bottom: 90px
 	.step 
 		&__text
 			font-size: 12px
@@ -81,10 +84,11 @@
 			padding-top: 25px
 			&__title
 				font-size: 18px
-				margin-bottom: 27px
+				margin-bottom: 10px
+				line-height: 1.2
 			&__subtitle
 				font-size: 14px
-				margin-bottom: 34px
+				margin-bottom: 24px
 			&-image
 				&__1
 					margin-bottom: 18px
